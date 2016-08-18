@@ -3,6 +3,7 @@ title: 什么是Akka.NET
 date: 2016-08-17 22:53:13
 categories: 翻译
 tags: Akka.NET
+copyright: false
 ---
 ## 可扩展，分布式 实时业务处理
 
