@@ -1,5 +1,5 @@
 ---
-title: 约定成俗的Hello World
+title: 【Akka.NET 文档】约定成俗的Hello World
 date: 2016-08-20 10:44:56
 categories: 翻译
 tags: Akka.NET
