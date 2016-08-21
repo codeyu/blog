@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -77,11 +77,6 @@ deploy:
 markdown:
   render:
     html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
   plugins:
     - markdown-it-abbr
     - markdown-it-footnote
@@ -93,4 +88,5 @@ markdown:
     collisionSuffix: 'v'
     permalink: true
     permalinkClass: header-anchor
-    permalinkSymbol: ¶  
+    permalinkSymbol: ¶
+  

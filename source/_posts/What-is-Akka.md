@@ -1,10 +1,11 @@
 ---
-title: 什么是Akka.NET  
+title: 【Akka.NET 文档】什么是Akka.NET  
 date: 2016-08-17 22:53:13
 categories: 翻译
 tags: Akka.NET
 copyright: false
 ---
+<!--more-->
 ## 可扩展，分布式 实时业务处理
 
 我们认为写正确的，并发的，容错的和可扩展的应用程序太难了。
