@@ -1,5 +1,5 @@
 ---
-title: windows service deployment scenario
+title: 【Akka.NET 文档】Windows Service 部署场景
 date: 2016-08-26 23:25:36
 categories: 翻译
 tags: Akka.NET
