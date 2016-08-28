@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    $(window).scrollTop() > 500 ? $("#rocket").addClass("show") : $("#rocket").removeClass("show");
+    $("#rocket").toggleClass('show', window.pageYOffset > 50);
 });
 $("#rocket").click(function() {
     $("#rocket").addClass("launch");
