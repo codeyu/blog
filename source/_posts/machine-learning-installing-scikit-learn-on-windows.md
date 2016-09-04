@@ -2,7 +2,8 @@
 title: 机器学习入门系列 1.在windows系统安装scikit-learn
 date: 2016-09-04 22:56:50
 categories: 技术
-tags:python 机器学习 scikit-learn
+copyright: false
+tags: [python, 机器学习, scikit-learn]
 ---
 <!--more-->
 ## 安装机器学习相关模块
@@ -11,7 +12,7 @@ tags:python 机器学习 scikit-learn
 首先，到Python官网下载[Python](https://www.python.org/downloads/)。我使用的是2.7.X系列的版本。32位或64位均可。我这里安装的是：
 [python-2.7.11.msi](https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi)
 
-**注意：**安装的模块要和Python的位数保持一致。比如我这里使用32位的python。那么等下安装的各种模块也要使用32位的。否则会出现如下错误：
+**注意：** 安装的模块要和Python的位数保持一致。比如我这里使用32位的python。那么等下安装的各种模块也要使用32位的。否则会出现如下错误：
 > xxx is not a supported wheel on this platform. 
 
 安装后设置环境变量。比如我这里安装的路径是：`C:\Python27`
