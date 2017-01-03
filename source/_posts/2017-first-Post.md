@@ -25,6 +25,7 @@ copyright: false
 下面就是我2017年的目标清单
 
 - [ ] 读 [Succeed:How We Can Reach Our Goals](https://book.douban.com/subject/5934941/)
+- [ ] 读 [Homo Deus:A Brief History of Tomorrow](https://book.douban.com/subject/26867512/)
 - [ ] 读 [The Gene:An Intimate History](https://book.douban.com/subject/26754245/)
 - [ ] 读 [Harry Potter and the Sorcerer's Stone](https://book.douban.com/subject/1340758/)
 - [ ] 读 [The Go Programming Language](https://book.douban.com/subject/26337545/)
@@ -47,7 +48,7 @@ copyright: false
 - [ ] 基于DiscuzNT, 用 .NET Core 重写一个[论坛](https://github.com/codeyu/DiscuzCore)
 - [ ] 实现一个游戏项目，语言不限
 - [ ] leetcode完成[前300题](https://github.com/codeyu/LeetCode)
-- [ ] 去国外旅游不少于一次
+- [ ] 去国外旅游至少一次
 - [ ] 看不少于5部美剧
 - [ ] 看不少于5部日剧
 - [ ] 看不少于20部电影
