@@ -68,7 +68,7 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:codeyu/blog.git
+  repo: https://github.com/codeyu/codeyu.github.com.git
   Branch: master
   commit: [message]
 
