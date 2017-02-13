@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CodeYu</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://codeyu.com/"/>
+  <updated>2017-02-13T16:10:14.453Z</updated>
+  <id>http://codeyu.com/</id>
+  
+  <author>
+    <name>codeyu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker 命令速查表</title>
+    <link href="http://codeyu.com/2017/02/13/docker-cheat-sheet/"/>
+    <id>http://codeyu.com/2017/02/13/docker-cheat-sheet/</id>
+    <published>2017-02-13T22:46:38.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://docs.docker.com/engine/reference/commandline/create" target="_blank" rel="external"><code>docker create</code></a></td>
+<td>创建一个容器但是不启动</td>
+</tr>
+<tr>
+<td><a href="https://docs.docker.com/engine/reference/commandline/rename/" target="_blank" rel="external"><code>docker rename</code></a></td>
+<td>重命名容器</td>
+</tr>
+<tr>
+<td><a href="https://docs.docker.com/engine/reference/commandline/run" target="_blank" rel="external"><code>docker run</code></a></td>
+<td>启动一个容器</td>
+</tr>
+<tr>
+<td><a href="https://docs.docker.com/engine/reference/commandline/rm" target="_blank" rel="external"><code>docker rm</code></a></td>
+<td>删除容器</td>
+</tr>
+<tr>
+<td><a href="https://docs.docker.com/engine/reference/commandline/update/" target="_blank" rel="external"><code>docker update</code></a></td>
+<td>更新容器的配置</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;命令&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://docs.docker.com/engine/refer
+    
+    </summary>
+    
+      <category term="技术" scheme="http://codeyu.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="docker" scheme="http://codeyu.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://codeyu.com/2017/02/13/hello-world/"/>
+    <id>http://codeyu.com/2017/02/13/hello-world/</id>
+    <published>2017-02-13T16:10:14.453Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="quick-start"><a class="header-anchor" href="#quick-start">¶</a>Quick Start</h2>
+<h3 id="create-a-new-post"><a class="header-anchor" href="#create-a-new-post">¶</a>Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="run-server"><a class="header-anchor" href="#run-server">¶</a>Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="generate-static-files"><a class="header-anchor" href="#generate-static-files">¶</a>Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="deploy-to-remote-sites"><a class="header-anchor" href="#deploy-to-remote-sites">¶</a>Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2017，我的第一本英文原版书</title>
+    <link href="http://codeyu.com/2016/12/31/2017-first-Post/"/>
+    <id>http://codeyu.com/2016/12/31/2017-first-Post/</id>
+    <published>2016-12-31T22:54:15.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p><img src="http://oj3pzn0i5.bkt.clouddn.com/succeed_how_we_can_reach_our_goals.jpg" alt="succeed"></p>
+<p>很多人都会在年末做年终总结，并给明年列个计划。比如去年12月底的我。</p>
+<p>去年我订的其中一个目标是克服<a href="https://www.zhihu.com/question/29773433" target="_blank" rel="external">社交恐惧</a>这种病，如果这是种病的话。</p>
+<p>现在想想，不但没克服，反而有加重的趋势。我越来越喜欢一个人独处，宅在家里。唉，我恨我自己。</p>
+<p>我还记得有个目标是读完好多本书，但。。。</p>
+<p>买了成捆成捆的纸质书，下了n多n多的电子书，但完完全全，认认真真看完的却一本也没有，一本也没有，没有。。。〒_〒</p>
+<p>是时候改变自己了，咦，2016年的年末好像也说过这种话（泪。。。</p>
+<p>这次我要把2017年的目标记录在这篇文章里，在2017年的最后几天再过来看看，是我完成了计划，还是被狠狠打脸！</p>
+<p>下面就是我2017年的目标清单</p>
+<ul>
+<li>[ ] 读 <a href="https://book.douban.com/subject/5934941/" target="_blank" rel="external">Succeed:How We Can Reach Our Goals</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/26867512/" target="_blank" rel="external">Homo Deus:A Brief History of Tomorrow</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/26754245/" target="_blank" rel="external">The Gene:An Intimate History</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/1340758/" target="_blank" rel="external">Harry Potter and the Sorcerer's Stone</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/26337545/" target="_blank" rel="external">The Go Programming Language</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/1088054/" target="_blank" rel="external">TCP/IP详解 卷1：协议</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/1230413/" target="_blank" rel="external">深入理解计算机系统</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/10746113/" target="_blank" rel="external">HTTP权威指南</a></li>
+<li>[ ] 读 <a href="https://book.douban.com/subject/1148282/" target="_blank" rel="external">计算机程序的构造和解释</a></li>
+<li>[ ] 看 <a href="http://open.163.com/special/opencourse/weijifen.html" target="_blank" rel="external">麻省理工学院公开课：微积分重点</a></li>
+<li>[ ] 看 <a href="http://v.163.com/special/sp/singlevariablecalculus.html" target="_blank" rel="external">麻省理工学院公开课：单变量微积分</a></li>
+<li>[ ] 看 <a href="http://open.163.com/special/opencourse/multivariable.html" target="_blank" rel="external">麻省理工学院公开课：多变量微积分</a></li>
+<li>[ ] 看 <a href="http://v.163.com/special/opencourse/daishu.html" target="_blank" rel="external">麻省理工公开课：线性代数</a></li>
+<li>[ ] 看 <a href="http://open.163.com/special/Khan/probability.html" target="_blank" rel="external">可汗学院公开课：概率</a></li>
+<li>[ ] 看 <a href="http://open.163.com/special/Khan/khstatistics.html" target="_blank" rel="external">可汗学院公开课：统计学</a></li>
+<li>[ ] 跑步不少于500公里</li>
+<li>[ ] <a href="https://github.com/codeyu" target="_blank" rel="external">github</a> 的 contribution 不少于1500次，不少于300天</li>
+<li>[ ] 用 python 语言实现一个项目</li>
+<li>[ ] 用 go 语言实现一个项目</li>
+<li>[ ] 用 javascript 语言实现一个项目</li>
+<li>[ ] 用 elixir 语言实现一个项目</li>
+<li>[ ] 基于DiscuzNT, 用 .NET Core 重写一个<a href="https://github.com/codeyu/DiscuzCore" target="_blank" rel="external">论坛</a></li>
+<li>[ ] 实现一个游戏项目，语言不限</li>
+<li>[ ] leetcode完成<a href="https://github.com/codeyu/LeetCode" target="_blank" rel="external">前300题</a></li>
+<li>[ ] 去国外旅游至少一次</li>
+<li>[ ] 看不少于5部美剧</li>
+<li>[ ] 看不少于5部日剧</li>
+<li>[ ] 看不少于20部电影</li>
+<li>[ ] 隐藏目标(完成后解锁，没完成删掉)</li>
+</ul>
+<p>总之，2017年依然是学习学习再学习。</p>
+<p>看过了很多的鸡汤，明白了很多的道理，难道就过不好2017这一年？！</p>
+<p>PS: 这篇文章本来是要再2016年完成的。。。。（逃</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;http://oj3pzn0i5.bkt.clouddn.com/succeed_how_we_can_reach_our_goals.jpg&quot; alt=&quot;succeed&quot;&gt;&lt;/p&gt;
+&lt;p&gt;很多人都会在年末做年终总结，
+    
+    </summary>
+    
+      <category term="其他" scheme="http://codeyu.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="计划" scheme="http://codeyu.com/tags/%E8%AE%A1%E5%88%92/"/>
+    
+      <category term="奋斗" scheme="http://codeyu.com/tags/%E5%A5%8B%E6%96%97/"/>
+    
+      <category term="学习" scheme="http://codeyu.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】Actors</title>
+    <link href="http://codeyu.com/2016/10/22/actors/"/>
+    <id>http://codeyu.com/2016/10/22/actors/</id>
+    <published>2016-10-22T15:49:28.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>The previous section about <a href="actorsystems">Actor Systems</a> explained how actors form hierarchies and are the smallest unit when building an application. This section looks at one such actor in isolation, explaining the concepts you encounter while implementing it. For a more in depth reference with all the details please refer to F# API or C# API.</p>
+<p>An actor is a container for <a href="#state">State</a>, <a href="#behavior">Behavior</a>, a <a href="#mailbox">Mailbox</a>, <a href="#children">Children</a> and a <a href="#supervisor-strategy">Supervisor Strategy</a>. All of this is encapsulated behind an Actor Reference(<code>ActorRef</code>).</p>
+<p><img src="http://oj3pzn0i5.bkt.clouddn.com/actor.png" alt="Actor"></p>
+<h2 id="actor-reference"><a class="header-anchor" href="#actor-reference">¶</a>Actor Reference</h2>
+<p>As detailed below, an actor object needs to be shielded from the outside in order to benefit from the actor model. Therefore, actors are represented to the outside using actor references, which are objects that can be passed around freely and without restriction. This split into inner and outer object enables transparency for all the desired operations: restarting an actor without needing to update references elsewhere, placing the actual actor object on remote hosts, sending messages to actors in completely different applications. But the most important aspect is that it is not possible to look inside an actor and get hold of its state from the outside, unless the actor unwisely publishes this information itself.</p>
+<h2 id="state"><a class="header-anchor" href="#state">¶</a>State</h2>
+<p>Actor objects will typically contain some variables which reflect possible states the actor may be in. This can be an explicit state machine (e.g. using the FSM module), or it could be a counter, set of listeners, pending requests, etc. These data are what make an actor valuable, and they must be protected from corruption by other actors. The good news is that Akka.NET actors conceptually each have their own light-weight thread, which is completely shielded from the rest of the system. This means that instead of having to synchronize access using locks you can just write your actor code without worrying about concurrency at all.</p>
+<p>Behind the scenes Akka.NET will run sets of actors on sets of real threads, where typically many actors share one thread, and subsequent invocations of one actor may end up being processed on different threads. Akka.NET ensures that this implementation detail does not affect the single-threadedness of handling the actor's state.</p>
+<p>Because the internal state is vital to an actor's operations, having inconsistent state is fatal. Thus, when the actor fails and is restarted by its supervisor, the state will be created from scratch, like upon first creating the actor. This is to enable the ability of self-healing of the system.</p>
+<p>Optionally, an actor's state can be automatically recovered to the state before a restart by persisting received messages and replaying them after restart (see Persistence).</p>
+<h2 id="behavior"><a class="header-anchor" href="#behavior">¶</a>Behavior</h2>
+<p>Every time a message is processed, it is matched against the current behavior of the actor. Behavior means a function which defines the actions to be taken in reaction to the message at that point in time, say forward a request if the client is authorized, deny it otherwise. This behavior may change over time, e.g. because different clients obtain authorization over time, or because the actor may go into an “out-of-service” mode and later come back. These changes are achieved by either encoding them in state variables which are read from the behavior logic, or the function itself may be swapped out at runtime, see the become and unbecome operations. However, the initial behavior defined during construction of the actor object is special in the sense that a restart of the actor will reset its behavior to this initial one.</p>
+<h2 id="mailbox"><a class="header-anchor" href="#mailbox">¶</a>Mailbox</h2>
+<p>An actor's purpose is the processing of messages, and these messages were sent to the actor from other actors (or from outside the actor system). The piece which connects sender and receiver is the actor's mailbox: each actor has exactly one mailbox to which all senders enqueue their messages. Enqueuing happens in the time-order of send operations, which means that messages sent from different actors may not have a defined order at runtime due to the apparent randomness of distributing actors across threads. Sending multiple messages to the same target from the same actor, on the other hand, will enqueue them in the same order.</p>
+<p>There are different mailbox implementations to choose from, the default being a FIFO: the order of the messages processed by the actor matches the order in which they were enqueued. This is usually a good default, but applications may need to prioritize some messages over others. In this case, a priority mailbox will enqueue not always at the end but at a position as given by the message priority, which might even be at the front. While using such a queue, the order of messages processed will naturally be defined by the queue's algorithm and in general not be FIFO.</p>
+<p>An important feature in which Akka.NET differs from some other actor model implementations is that the current behavior must always handle the next dequeued message, there is no scanning the mailbox for the next matching one. Failure to handle a message will typically be treated as a failure, unless this behavior is overridden.</p>
+<h2 id="children"><a class="header-anchor" href="#children">¶</a>Children</h2>
+<p>Each actor is potentially a supervisor: if it creates children for delegating sub-tasks, it will automatically supervise them. The list of children is maintained within the actor's context and the actor has access to it. Modifications to the list are done by creating (<code>Context.ActorOf(...)</code>) or stopping (<code>Context.Stop(child)</code>) children and these actions are reflected immediately. The actual creation and termination actions happen behind the scenes in an asynchronous way, so they do not “block” their supervisor.</p>
+<h2 id="supervisor-strategy"><a class="header-anchor" href="#supervisor-strategy">¶</a>Supervisor Strategy</h2>
+<p>The final piece of an actor is its strategy for handling faults of its children. Fault handling is then done transparently by Akka, applying one of the strategies described in Supervision and Monitoring for each incoming failure. As this strategy is fundamental to how an actor system is structured, it cannot be changed once an actor has been created.</p>
+<p>Considering that there is only one such strategy for each actor, this means that if different strategies apply to the various children of an actor, the children should be grouped beneath intermediate supervisors with matching strategies, preferring once more the structuring of actor systems according to the splitting of tasks into sub-tasks.</p>
+<h2 id="when-an-actor-terminates"><a class="header-anchor" href="#when-an-actor-terminates">¶</a>When an Actor Terminates</h2>
+<p>Once an actor terminates, i.e. fails in a way which is not handled by a restart, stops itself or is stopped by its supervisor, it will free up its resources, draining all remaining messages from its mailbox into the system's “dead letter mailbox” which will forward them to the <code>EventStream</code> as <code>DeadLetters</code>. The mailbox is then replaced within the actor reference with a system mailbox, redirecting all new messages to the <code>EventStream</code> as <code>DeadLetters</code>. This is done on a best effort basis, though, so do not rely on it in order to construct “guaranteed delivery”.</p>
+<p>The reason for not just silently dumping the messages was inspired by our tests: we register the TestEventListener on the event bus to which the dead letters are forwarded, and that will log a warning for every dead letter received—this has been very helpful for deciphering test failures more quickly. It is conceivable that this feature may also be of use for other purposes.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;The previous section about &lt;a href=&quot;actorsystems&quot;&gt;Actor Systems&lt;/a&gt; explained how actors form hierarchies and are the s
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】Actor 系统</title>
+    <link href="http://codeyu.com/2016/10/22/actorsystem/"/>
+    <id>http://codeyu.com/2016/10/22/actorsystem/</id>
+    <published>2016-10-22T15:46:41.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p><a href="actors">Actors</a> are objects which encapsulate state and behavior, they communicate exclusively by exchanging <a href="messages">messages</a> which are placed into the recipient's mailbox. In a sense, actors are the most stringent form of object-oriented programming, but it serves better to view them as persons: while modeling a solution with actors, envision a group of people and assign sub-tasks to them, arrange their functions into an organizational structure and think about how to escalate failure (all with the benefit of not actually dealing with people, which means that we need not concern ourselves with their emotional state or moral issues). The result can then serve as a mental scaffolding for building the software implementation.</p>
+<blockquote>
+<p><strong>Note</strong><br>
+An <code>ActorSystem</code> is a heavyweight structure that will allocate 1...N Threads, so create one per logical application.</p>
+</blockquote>
+<h2 id="hierarchical-structure"><a class="header-anchor" href="#hierarchical-structure">¶</a>Hierarchical Structure</h2>
+<p>Like in an economic organization, actors naturally form hierarchies. One actor, which is to oversee a certain function in the program might want to split up its task into smaller, more manageable pieces. For this purpose it starts child actors which it supervises. While the details of supervision are explained here, we shall concentrate on the underlying concepts in this section. The only prerequisite is to know that each actor has exactly one supervisor, which is the actor that created it.</p>
+<p>The quintessential feature of actor systems is that tasks are split up and delegated until they become small enough to be handled in one piece. In doing so, not only is the task itself clearly structured, but the resulting actors can be reasoned about in terms of which messages they should process, how they should react normally and how failure should be handled. If one actor does not have the means for dealing with a certain situation, it sends a corresponding failure message to its supervisor, asking for help. The recursive structure then allows to handle failure at the right level.</p>
+<p><img src="http://oj3pzn0i5.bkt.clouddn.com/ErrorKernel.png" alt="ActorSystem hierarchy, illustrated using error kernel pattern"></p>
+<p>Compare this to layered software design which easily devolves into defensive programming with the aim of not leaking any failure out: if the problem is communicated to the right person, a better solution can be found than if trying to keep everything “under the carpet”.</p>
+<p>Now, the difficulty in designing such a system is how to decide who should supervise what. There is of course no single best solution, but there are a few guidelines which might be helpful:</p>
+<ul>
+<li>If one actor manages the work another actor is doing, e.g. by passing on sub-tasks, then the manager should supervise the child. The reason is that the manager knows which kind of failures are expected and how to handle them.</li>
+<li>If one actor carries very important data (i.e. its state shall not be lost if avoidable), this actor should source out any possibly dangerous sub-tasks to children it supervises and handle failures of these children as appropriate. Depending on the nature of the requests, it may be best to create a new child for each request, which simplifies state management for collecting the replies. This is known as the “Error Kernel Pattern” from Erlang.</li>
+<li>If one actor depends on another actor for carrying out its duty, it should watch that other actor's liveness and act upon receiving a termination notice. This is different from supervision, as the watching party has no influence on the supervisor strategy, and it should be noted that a functional dependency alone is not a criterion for deciding where to place a certain child actor in the hierarchy.
+There are of course always exceptions to these rules, but no matter whether you follow the rules or break them, you should always have a reason.</li>
+</ul>
+<h2 id="configuration-container"><a class="header-anchor" href="#configuration-container">¶</a>Configuration Container</h2>
+<p>The actor system as a collaborating ensemble of actors is the natural unit for managing shared facilities like scheduling services, configuration, logging, etc. Several actor systems with different configuration may co-exist within the same runtime without problems, there is no global shared state within Akka.NET itself. Couple this with the transparent communication between actor systems—within one node or across a network connection—to see that actor systems themselves can be used as building blocks in a functional hierarchy.</p>
+<h2 id="actor-best-practices"><a class="header-anchor" href="#actor-best-practices">¶</a>Actor Best Practices</h2>
+<ol>
+<li>Actors should be like nice co-workers: do their job efficiently without bothering everyone else needlessly and avoid hogging resources. Translated to programming this means to process events and generate responses (or more requests) in an event-driven manner. Actors should not block (i.e. passively wait while occupying a Thread) on some external entity—which might be a lock, a network socket, etc.—unless it is unavoidable; in the latter case see below.</li>
+<li>Do not pass mutable objects between actors. In order to ensure that, prefer immutable messages. If the encapsulation of actors is broken by exposing their mutable state to the outside, you are back in normal .NET concurrency land with all the drawbacks.</li>
+<li>Actors are made to be containers for behavior and state, embracing this means to not routinely send behavior within messages. One of the risks is to accidentally share mutable state between actors, and this violation of the actor model unfortunately breaks all the properties which make programming in actors such a nice experience.</li>
+<li>Top-level actors are the innermost part of your Error Kernel, so create them sparingly and prefer truly hierarchical systems. This has benefits with respect to fault-handling (both considering the granularity of configuration and the performance) and it also reduces the strain on the guardian actor, which is a single point of contention if over-used.</li>
+</ol>
+<h2 id="blocking-needs-careful-management"><a class="header-anchor" href="#blocking-needs-careful-management">¶</a>Blocking Needs Careful Management</h2>
+<p>In some cases it is unavoidable to do blocking operations, i.e. to put a thread to sleep for an indeterminate time, waiting for an external event to occur. Examples are legacy RDBMS drivers or messaging APIs, and the underlying reason is typically that (network) I/O occurs under the covers. When facing this, you may be tempted to just wrap the blocking call inside a Future and work with that instead, but this strategy is too simple: you are quite likely to find bottlenecks or run out of memory or threads when the application runs under increased load.</p>
+<p>The non-exhaustive list of adequate solutions to the “blocking problem” includes the following suggestions:</p>
+<ul>
+<li>Do the blocking call within an actor (or a set of actors managed by a <a href="Routing">router</a>), making sure to configure a thread pool which is either dedicated for this purpose or sufficiently sized.</li>
+<li>Do the blocking call within a Future, ensuring an upper bound on the number of such calls at any point in time (submitting an unbounded number of tasks of this nature will exhaust your memory or thread limits).</li>
+<li>Do the blocking call within a Future, providing a thread pool with an upper limit on the number of threads which is appropriate for the hardware on which the application runs.</li>
+<li>Dedicate a single thread to manage a set of blocking resources (e.g. a NIO selector driving multiple channels) and dispatch events as they occur as actor messages.</li>
+</ul>
+<p>The first possibility is especially well-suited for resources which are single-threaded in nature, like database handles which traditionally can only execute one outstanding query at a time and use internal synchronization to ensure this. A common pattern is to create a router for N actors, each of which wraps a single DB connection and handles queries as sent to the router. The number N must then be tuned for maximum throughput, which will vary depending on which DBMS is deployed on what hardware.</p>
+<blockquote>
+<p><strong>Note</strong><br>
+Configuring thread pools is a task best delegated to Akka, simply configure in the application.conf and instantiate through an ActorSystem.</p>
+</blockquote>
+<h2 id="what-you-should-not-concern-yourself-with"><a class="header-anchor" href="#what-you-should-not-concern-yourself-with">¶</a>What you should not concern yourself with</h2>
+<p>An actor system manages the resources it is configured to use in order to run the actors which it contains. There may be millions of actors within one such system, after all the mantra is to view them as abundant and they weigh in at an overhead of only roughly 300 bytes per instance. Naturally, the exact order in which messages are processed in large systems is not controllable by the application author, but this is also not intended. Take a step back and relax while Akka.NET does the heavy lifting under the hood.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;actors&quot;&gt;Actors&lt;/a&gt; are objects which encapsulate state and behavior, they communicate exclusively by exchangin
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux zsh 使用 sudo 执行 bash 脚本提示 command not found</title>
+    <link href="http://codeyu.com/2016/09/22/linux-zsh-shell-script-command-not-found/"/>
+    <id>http://codeyu.com/2016/09/22/linux-zsh-shell-script-command-not-found/</id>
+    <published>2016-09-22T21:58:03.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="问"><a class="header-anchor" href="#问">¶</a>问<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h2>
+<p>在 home 目录，我有一个脚本叫 <code>foo.sh</code>。我切换到此目录，执行 <code>./foo.sh</code>，发生一个错误：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">zsh: permission denied: ./foo.sh</div></pre></td></tr></table></figure>
+<p>我用 <code>sudo ./foo.sh</code> 继续执行，发生另一个错误：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo: ./foo.sh: command not found</div></pre></td></tr></table></figure>
+<p>什么情况？我该怎么做？</p>
+<h2 id="答"><a class="header-anchor" href="#答">¶</a>答</h2>
+<h3 id="permission-denied"><a class="header-anchor" href="#permission-denied">¶</a>permission denied</h3>
+<p>为了运行一个脚本文件，此文件必须有<strong>一个可执行权限设置位</strong></p>
+<p>为了完全理解 Linux 文件权限，通过<a href="http://www.gnu.org/software/coreutils/manual/html_node/File-permissions.html#File-permissions" target="_blank" rel="external">这个文档</a>你可以学习 <code>chmod</code> 命令。<a href="http://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html" target="_blank" rel="external">chmod</a>，change mode 的缩写形式，是改变文件权限设置的一个命令。</p>
+<p>在你的系统运行 <code>man chmod</code> 或 <code>info chmod</code> 可以查看 chmod 的帮助说明。学习了解后，你就能看懂下面的命令输出的结果：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ls －l foo.sh</div></pre></td></tr></table></figure>
+<p>结果将列出 Owner，Group，Other（有时称之为“World”或“Other”）的 <strong>可读</strong>，<strong>可写</strong>，<strong>可执行</strong> 权限。</p>
+<p>下面简单说下怎么去解决你遇到的 <strong>Permission Denied error</strong>。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">$ ls -l foo.sh                    # 查看 foo.sh 文件的权限</div><div class="line">-rw-r--r-- 1 rkielty users 0 2012-10-21 14:47 foo.sh </div><div class="line">    ^^^ </div><div class="line"> ^^^ | ^^^   ^^^^^^^ ^^^^^</div><div class="line">  |  |  |       |       | </div><div class="line">Owner| World    |       |</div><div class="line">     |          |    Name of</div><div class="line">   Group        |     Group</div><div class="line">             Name of </div><div class="line">              Owner</div></pre></td></tr></table></figure>
+<p>上面的输出表明 Owner 有读和写权限，但 - 表示没有可执行权限（Group 和 World 只有读权限）。</p>
+<p>现在用 <code>chmod</code> 命令修正之。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ chmod +x foo.sh               # owner 可以设置 foo.sh 的可执行权限</div><div class="line">$ ls -l foo.sh                  # 现在我们看到在 rw 后有个 x</div><div class="line">-rwxr-xr-x 1 rkielty users 0 2012-10-21 14:47 foo.sh</div><div class="line">   ^  ^  ^</div></pre></td></tr></table></figure>
+<p>在 Linux 中，现在 foo.sh 是可执行的。</p>
+<h3 id="用-sudo-结果显示-command-not-found"><a class="header-anchor" href="#用-sudo-结果显示-command-not-found">¶</a>用 sudo 结果显示 Command not found</h3>
+<p>当你在执行命令前用 <strong>sudo</strong> 实际上你是作为超级用户或 root 用户执行它。</p>
+<p>root 用户找不到你的命令的原因可能是 root 的 <code>PATH</code> 环境变量不包括 <code>foo.sh</code> 文件所在的位置。因此你命令未找到。</p>
+<p>PATH 环境变量包含一个搜索命令的目录列表。每个用户根据自己的情况设置 PATH 变量。执行下面的命令看看 PATH 变量里都有些什么：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">env | grep ^PATH</div></pre></td></tr></table></figure>
+<p>下面是一些示例输出，首先作为一个普通用户运行上面的 env 命令，然后使用 sudo 作为 root 用户运行的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">rkielty@rkielty-laptop:~$ env | grep ^PATH</div><div class="line">PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games</div><div class="line"></div><div class="line">rkielty@rkielty-laptop:~$ sudo env | grep ^PATH</div><div class="line">[sudo] password for rkielty: </div><div class="line">PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin</div></pre></td></tr></table></figure>
+<p>请注意：尽管相似，但非特权用户（rkielty）和 root 用户的 PATH 目录列表是不一样的。</p>
+<p>foo.sh 所在的目录没有出现在 root 用户的 PATH 变量中，因此 <code>command not found</code> 错误出现了。</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>原文地址：<a href="http://stackoverflow.com/questions/12996397/command-not-found-when-using-sudo" target="_blank" rel="external">Command not found when using sudo</a> <a href="#fnref1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;问&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#问&quot;&gt;¶&lt;/a&gt;问&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/h2
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="linux" scheme="http://codeyu.com/tags/linux/"/>
+    
+      <category term="bash" scheme="http://codeyu.com/tags/bash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu Trusty 14.04 Docker 安装教程</title>
+    <link href="http://codeyu.com/2016/09/22/install-docker-on-ubuntu/"/>
+    <id>http://codeyu.com/2016/09/22/install-docker-on-ubuntu/</id>
+    <published>2016-09-22T19:47:02.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h3 id="准备"><a class="header-anchor" href="#准备">¶</a>准备</h3>
+<p>docker 要求 64位 的 Linux 操作系统，并且 Linux 的内核 &gt;= 3.10</p>
+<ol>
+<li>首先查看你的操作系统的内核版本：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ uname -r</div></pre></td></tr></table></figure>
+<ol start="2">
+<li>更新包管理器 <a href="http://wiki.ubuntu.com.cn/Apt%E5%92%8Cdpkg%E5%BF%AB%E9%80%9F%E5%8F%82%E8%80%83" target="_blank" rel="external">APT快速参考</a></li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get update</div></pre></td></tr></table></figure>
+<ol start="3">
+<li>安装推荐的包,这个包可以让 docker 使用 <a href="http://coolshell.cn/articles/17061.html" target="_blank" rel="external">AUFS</a> 文件系统</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual</div></pre></td></tr></table></figure>
+<ol start="4">
+<li>更新包管理器并且安装 apt-transport-https 和 ca-certificates</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get update</div><div class="line">$ sudo apt-get install apt-transport-https ca-certificates</div></pre></td></tr></table></figure>
+<ol start="5">
+<li>添加新的 <a href="http://www.ruanyifeng.com/blog/2013/07/gpg.html" target="_blank" rel="external">GPG</a> 键</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D</div></pre></td></tr></table></figure>
+<ol start="6">
+<li>打开 <code>/etc/apt/sources.list.d/docker.list</code> 文件，清空内容（如果有）</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo vim /etc/apt/sources.list.d/docker.list</div></pre></td></tr></table></figure>
+<ol start="7">
+<li>添加以下内容并保存退出（<code>!wq</code>）</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">deb https://apt.dockerproject.org/repo ubuntu-trusty main</div></pre></td></tr></table></figure>
+<ol start="8">
+<li>更新 APT 包索引</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get update</div></pre></td></tr></table></figure>
+<ol start="9">
+<li>清理旧的 docker repo 源</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get purge lxc-docker</div></pre></td></tr></table></figure>
+<ol start="10">
+<li>验证 APT 是否从正确的 repo 拉取</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ apt-cache policy docker-engine</div></pre></td></tr></table></figure>
+<h3 id="安装"><a class="header-anchor" href="#安装">¶</a>安装</h3>
+<ol>
+<li>更新 APT 包索引</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get update</div></pre></td></tr></table></figure>
+<ol start="2">
+<li>安装 docker</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo apt-get install docker-engine</div></pre></td></tr></table></figure>
+<ol start="3">
+<li>启动 docker 守护进程</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo service docker start</div></pre></td></tr></table></figure>
+<ol start="4">
+<li>验证 docker 是否正确安装</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ sudo docker run hello-world</div></pre></td></tr></table></figure>
+<p>稍等片刻，如果你看到 <code>Hello from Docker!</code> 字样，恭喜你，安装成功：-）</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;准备&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#准备&quot;&gt;¶&lt;/a&gt;准备&lt;/h3&gt;
+&lt;p&gt;docker 要求 64位 的 Linux 操作系统，并且 Linux 的内核 &amp;gt;= 3.10&lt;/p&gt;
+&lt;ol
+    
+    </summary>
+    
+      <category term="技术" scheme="http://codeyu.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="docker" scheme="http://codeyu.com/tags/docker/"/>
+    
+      <category term="ubuntu" scheme="http://codeyu.com/tags/ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习入门系列 1.在windows系统安装scikit-learn</title>
+    <link href="http://codeyu.com/2016/09/04/machine-learning-installing-scikit-learn-on-windows/"/>
+    <id>http://codeyu.com/2016/09/04/machine-learning-installing-scikit-learn-on-windows/</id>
+    <published>2016-09-04T22:56:50.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="安装机器学习相关模块"><a class="header-anchor" href="#安装机器学习相关模块">¶</a>安装机器学习相关模块</h2>
+<p>我们用python的<a href="http://scikit-learn.org/stable/index.html" target="_blank" rel="external"><code>scikit-learn</code></a>模块来学习Machine Learning。</p>
+<p>首先，到Python官网下载<a href="https://www.python.org/downloads/" target="_blank" rel="external">Python</a>。我使用的是2.7.X系列的版本。32位或64位均可。我这里安装的是：
+<a href="https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi" target="_blank" rel="external">python-2.7.11.msi</a></p>
+<p><strong>注意：</strong> 安装的模块要和Python的位数保持一致。比如我这里使用32位的python。那么等下安装的各种模块也要使用32位的。否则会出现如下错误：</p>
+<blockquote>
+<p>xxx is not a supported wheel on this platform.</p>
+</blockquote>
+<p>安装后设置环境变量。比如我这里安装的路径是：<code>C:\Python27</code></p>
+<p>依次打开：</p>
+<blockquote>
+<p>System-&gt;Advanced system settings -&gt; Environment Variables...</p>
+</blockquote>
+<p>编辑 <code>PATH</code> 变量。在最后添加：</p>
+<blockquote>
+<p>;C:\Python27;C:\Python27\Scripts;</p>
+</blockquote>
+<p>下载python安装器 pip：<a href="https://pypi.python.org/pypi/pip" target="_blank" rel="external">pip-8.1.2.tar.gz</a></p>
+<p>解压到某个目录如<code>D:\pip</code>,在此处打开命令行。运行以下命令安装：</p>
+<blockquote>
+<p>D:\pip&gt; python setup.py install</p>
+</blockquote>
+<p>然后到<a href="http://www.lfd.uci.edu/" target="_blank" rel="external">这个网站</a>下载机器学习相关的模块：</p>
+<ol>
+<li><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy" target="_blank" rel="external">Numpy+MKL</a></li>
+<li><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy" target="_blank" rel="external">Scipy</a></li>
+<li><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#matplotlib" target="_blank" rel="external">matplotlib</a></li>
+<li><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/#scikit-learn" target="_blank" rel="external">scikit-learn</a></li>
+</ol>
+<p>比如下载到 <code>D:\python_whl_file</code> 这个目录下。在此处打开命令行。依次运行以下命令安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">D:\python_whl_file&gt;pip install numpy-1.11.1+mkl-cp27-cp27m-win32.whl</div><div class="line">D:\python_whl_file&gt;pip install scipy-0.18.0-cp27-cp27m-win32.whl</div><div class="line">D:\python_whl_file&gt;pip install matplotlib-1.5.2-cp27-cp27m-win32.whl</div><div class="line">D:\python_whl_file&gt;pip install scikit_learn-0.17.1-cp27-cp27m-win32.whl</div></pre></td></tr></table></figure>
+<p>所有的模块都 Successfully installed 后，就大功告成啦。</p>
+<p>写到这里，我了解到其实并不用这么麻烦。只要下载<a href="https://www.continuum.io/downloads" target="_blank" rel="external">Anaconda</a>这个数据分析集成包，
+然后安装后就可拥有全部机器学习相关模块了😄</p>
+<h2 id="测试机器学习相关模块"><a class="header-anchor" href="#测试机器学习相关模块">¶</a>测试机器学习相关模块</h2>
+<p>安装后当然要测试下了。
+首先试试scikit_learn这个包。
+打开IDLE。输入以下代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> datasets</div><div class="line">iris = datasets.load_iris()</div><div class="line"><span class="keyword">print</span> iris.data</div></pre></td></tr></table></figure>
+<p>保存为iris_data.py。在命令行里运行。
+输出了一串二维矩阵：</p>
+<p><img src="http://codeyu.qiniudn.com/iris_data.png" alt=""></p>
+<p>不错。然后再结合matplotlib包试试。在IDLE里打开新文件，输入以下代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> datasets</div><div class="line"><span class="keyword">from</span> matplotlib <span class="keyword">import</span> pyplot <span class="keyword">as</span> plt</div><div class="line">iris = datasets.load_iris()</div><div class="line">x_index = <span class="number">0</span></div><div class="line">y_index = <span class="number">1</span></div><div class="line"> </div><div class="line">formatter = plt.FuncFormatter(<span class="keyword">lambda</span> i, *args: iris.target_names[int(i)])</div><div class="line"> </div><div class="line">plt.scatter(iris.data[:, x_index], iris.data[:, y_index], c=iris.target)</div><div class="line">plt.colorbar(ticks=[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>], format=formatter)</div><div class="line">plt.xlabel(iris.feature_names[x_index])</div><div class="line">plt.ylabel(iris.feature_names[y_index])</div><div class="line"> </div><div class="line">plt.show()</div></pre></td></tr></table></figure>
+<p>保存为iris_figure.py在命令行里运行后，你将看到下图：</p>
+<p><img src="http://codeyu.qiniudn.com/iris_figure.png" alt=""></p>
+<p>OK。期待你的机器学习之旅吧！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;安装机器学习相关模块&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#安装机器学习相关模块&quot;&gt;¶&lt;/a&gt;安装机器学习相关模块&lt;/h2&gt;
+&lt;p&gt;我们用python的&lt;a href=&quot;http://scikit-l
+    
+    </summary>
+    
+      <category term="技术" scheme="http://codeyu.com/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="python" scheme="http://codeyu.com/tags/python/"/>
+    
+      <category term="机器学习" scheme="http://codeyu.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="scikit-learn" scheme="http://codeyu.com/tags/scikit-learn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】术语和概念</title>
+    <link href="http://codeyu.com/2016/09/04/Akka-NET-Terminology-and-Concepts/"/>
+    <id>http://codeyu.com/2016/09/04/Akka-NET-Terminology-and-Concepts/</id>
+    <published>2016-09-04T22:51:45.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>在这一章中，我们试图建立一个通用的术语来定义Akka.NET中并发，分布式系统等概念，作为讨论的基石。请注意， 其中很多术语并没有统一的定义。 我们只是在Akka.NET文档中来使用。</p>
+<h2 id="并发-vs-并行"><a class="header-anchor" href="#并发-vs-并行">¶</a>并发 vs. 并行</h2>
+<p>并发和并行是如影相随的概念。 并发意味着两个或两个以上的任务正在进行中，即使他们可能不会同时执行。例如，有的任务顺序执行，有的任务通过时间片的切换与其他任务交替执行。 而并行是真正的同时执行。</p>
+<h4 id="并发-concurrency"><a class="header-anchor" href="#并发-concurrency">¶</a>并发（Concurrency）</h4>
+<p><img src="http://codeyu.qiniudn.com/concurrency.png" alt="Concurrency"></p>
+<h4 id="并行-parallelism"><a class="header-anchor" href="#并行-parallelism">¶</a>并行（Parallelism）</h4>
+<p><img src="http://codeyu.qiniudn.com/parallelism.png" alt="Parallelism"></p>
+<h2 id="异步-vs-同步"><a class="header-anchor" href="#异步-vs-同步">¶</a>异步 vs. 同步</h2>
+<p>如果调用者在这个方法返回一个值或抛出一个异常后才能继续执行，则称之为同步调用。另一方面，异步调用允许调用者在方法完成之前就继续执行，等到这个方法完成后通过额外的机制来通知调用者（它可能是一个回调方法，一个Future方法，或发送一个消息）。</p>
+<p>一个同步API可以使用阻塞来实现同步，但这不是必需的。一个CPU密集型的任务可能有类似的行为作为阻塞。在一般情况下，它优先使用异步API，因为它们保证系统能够继续执行。Actors天生就是异步的：一个Actor发送消息后会继续执行而不等结果。</p>
+<h2 id="非阻塞-vs-阻塞"><a class="header-anchor" href="#非阻塞-vs-阻塞">¶</a>非阻塞 vs. 阻塞</h2>
+<p>我们谈论阻塞(blocking)，一个线程的延迟也许能无限期的延迟一些别的线程。比如一个线程通过互斥独占使用一个资源。如果这个线程无限期的持有这个资源 (如不小心写了个死循环) ，那别的（打算使用这个资源的）线程只能等到天荒地老而不能进行下去。相比之下，非阻塞(non-blocking)意味着没有线程能够无限期的延迟别人。</p>
+<p>非阻塞操作比阻塞的好。因为包含阻塞操作的系统对整体的进度并不能有效的保证。</p>
+<h2 id="死锁-vs-饥饿-vs-活锁-live-lock"><a class="header-anchor" href="#死锁-vs-饥饿-vs-活锁-live-lock">¶</a>死锁 vs. 饥饿 vs. 活锁（Live-lock）</h2>
+<p>当几个参与者彼此等待对方达到一个特别的状态，以便能够继续进行，死锁产生了。 因为要达到一个特别的状态必须能够继续进行，要继续进行反过来又要达到特别的状态 (“两难”问题) ，所有受影响的子系统都会停摆。死锁和阻塞息息相关， 一个参与者线程能够无限期延迟其他线程的进行必然产生死锁。</p>
+<p>在死锁的情况下，没有参与者能够继续进行， 而相比之下饥饿（Starvation ）发生时, 有的参与者能继续进行，有的却不能。 典型的情况是 一个单纯的调度算法总是选择高优先级的任务，而忽略低优先级的。如果传入的高优先级的任务源源不断，那低优先级的任务将永远没机会完成。</p>
+<p>活锁和死锁类似，没有参与者能取得进展。不同的是参与者不会僵在那里等待别人的进行，而是不断的改变其状态。 一个示例场景是当两个参与者有两个相同的资源实例可用。 他们每一个人都试图获取资源， 但他们也检查别人是否需要这个资源。 假如发现其他参与者已请求这个资源，他们尝试去获取另一个资源实例。 可能发生比较悲剧的情况是两个参与者被两个资源弹来弹去，都不能获取到它，总是被礼让给另一个。</p>
+<h2 id="争用条件-race-condition"><a class="header-anchor" href="#争用条件-race-condition">¶</a>争用条件（Race Condition）</h2>
+<p>假设一系列事件的顺序遭受外部非确定性因素的打乱时发生了争用条件。  当多个线程有一个共享的可变状态，并且线程对状态进行交替操作可能导致意想不到的行为，这时经常引起争用条件。虽然这是一个常见的情况，共享状态是没必要有争用条件。  一个例子是客户端发送无序数据包 (如 UDP 报文) P1, P2 到服务端。当数据包通过不同的网络路由传送， 服务端可能先接收到P2，再接收到P1。如果报文不包含发送顺序的信息，服务端是不可能知道P1和P2的顺序。 根据数据包的意义这可能会导致争用条件。</p>
+<blockquote>
+<p><strong>注意</strong></p>
+<p>Akka.NET 提供了对给定的一对 Actors 之间发送消息的唯一保证是，它们的顺序总是保持不变。 见 <a href="message-delivery-reliability">消息传递的可靠性</a></p>
+</blockquote>
+<h2 id="非阻塞担保-progress-conditions"><a class="header-anchor" href="#非阻塞担保-progress-conditions">¶</a>非阻塞担保 (Progress Conditions)</h2>
+<p>正如前面几节讨论的阻塞是不受欢迎的几个原因， 包括死锁和系统吞吐量降低的危险。 在以下部分中,我们将讨论各种非阻塞特性的不同优点。</p>
+<h3 id="wait-freedom-无等待？"><a class="header-anchor" href="#wait-freedom-无等待？">¶</a>Wait-freedom（无等待？）</h3>
+<p>如果每次调用都保证在有限步骤内完成，那这个方法就是wait-free的。 如果一个方法是有界的wait-free，那么步骤的数量有一个有限的上限。</p>
+<p>从这个定义来看，wait-free的方法永远不会阻塞，因此不会发生死锁。此外， 因为每个参与者能在有限步骤之后继续进行 (当调用完成), wait-free方法均是free of starvation。</p>
+<h3 id="lock-freedom-无锁"><a class="header-anchor" href="#lock-freedom-无锁">¶</a>Lock-freedom（无锁）</h3>
+<p>Lock-freedom 比 wait-freedom 有更弱的特性。 在 lock-free 调用的情况下, 一些无限的方法常常在有限的步骤完成。 这个定义意味着lock-free调用不发生死锁是可能的。另一方面， 保证一些调用在有限数量的步骤完成是不足于保证他们最终完成。换言之， lock-freedom 并不足于保证 lack of starvation.</p>
+<h3 id="obstruction-freedom-无阻碍"><a class="header-anchor" href="#obstruction-freedom-无阻碍">¶</a>Obstruction-freedom（无阻碍）</h3>
+<p>Obstruction-freedom 是这里讨论最弱的非阻塞担保特性。 一个方法被称为obstruction-free 是如果有一个时间点后它孤立执行 (别的线程没有步骤, 例如： 变成暂停), 它在有限的步骤完成。 所有 lock-free 对象是 obstruction-free 的, 但相反则不成立。</p>
+<p>乐观并发控制（OCC）的方法通常是 obstruction-free。OCC的做法是每一位参与者都试着对共享对象执行操作，但如果一个参与者检测到与别人冲突， 则回滚修改,然后根据某种计划再次尝试。如果有一个时间点，这时只有一个参与者尝试，操作将成功。</p>
+<h2 id="推荐文献"><a class="header-anchor" href="#推荐文献">¶</a>推荐文献</h2>
+<ul>
+<li>多核编程的艺术（The Art of Multiprocessor Programming）, M. Herlihy and N Shavit, 2008. ISBN 978-0123705914</li>
+<li>Java并发实战（Java Concurrency in Practice）, B. Goetz, T. Peierls, J. Bloch, J. Bowbeer, D. Holmes and D. Lea, 2006. ISBN 978-0321349606</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;在这一章中，我们试图建立一个通用的术语来定义Akka.NET中并发，分布式系统等概念，作为讨论的基石。请注意， 其中很多术语并没有统一的定义。 我们只是在Akka.NET文档中来使用。&lt;/p&gt;
+&lt;h2 id=&quot;并发-vs-并行&quot;&gt;&lt;a c
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】Akka.NET 用户和使用案例</title>
+    <link href="http://codeyu.com/2016/08/28/Akka-NET-Users-and-Use-Case/"/>
+    <id>http://codeyu.com/2016/08/28/Akka-NET-Users-and-Use-Case/</id>
+    <published>2016-08-28T15:09:58.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>Akka.NET 被很多行业的大型组织使用。如投资和商业银行，零售和社交媒体， 仿真，游戏和博彩，汽车和交通系统， 医疗保健， 数据分析等等。 任何有高吞吐量和低延迟需求的系统都可以选择使用 Akka.NET。</p>
+<p>Akka.NET 的使用案例有大量论述。 下面是一些实际生产用户的经验之谈：</p>
+<h2 id="akka-net-用户"><a class="header-anchor" href="#akka-net-用户">¶</a>Akka.NET 用户</h2>
+<h4 id="交易处理-在线游戏-金融-银行-贸易-统计-博彩-社交媒体-通讯"><a class="header-anchor" href="#交易处理-在线游戏-金融-银行-贸易-统计-博彩-社交媒体-通讯">¶</a>交易处理 (在线游戏, 金融／银行, 贸易, 统计, 博彩, 社交媒体, 通讯)</h4>
+<ul>
+<li><a href="https://youtu.be/G3ZafPNI-hk?t=31m6s" target="_blank" rel="external">CellularSales</a></li>
+</ul>
+<h4 id="后台服务-任何行业-任何应用"><a class="header-anchor" href="#后台服务-任何行业-任何应用">¶</a>后台服务 (任何行业，任何应用)</h4>
+<p><a href="http://ivcbusinesssystems.com/" target="_blank" rel="external">IVC 业务系统</a>:</p>
+<blockquote>
+<p>Sam Covington, IVC 业务系统: 我们用Akka.NET实现了一套内部的“Actor”系统，这使我们创新和提高生产力，不用重复发明轮子。这种微服务的后端是我们所有产品和服务的基础。我们用它在企业社交产品，和Livescan办公产品如客户指纹识别。</p>
+</blockquote>
+<h4 id="并发和并行-任何程序"><a class="header-anchor" href="#并发和并行-任何程序">¶</a>并发和并行 (任何程序)</h4>
+<ul>
+<li><a href="https://petabridge.com/blog/akkadotnet-goes-to-wall-street/" target="_blank" rel="external">SNL Financial (McGraw Hill 子公司): Akka.NET 在华尔街的使用</a></li>
+</ul>
+<h4 id="模拟计算"><a class="header-anchor" href="#模拟计算">¶</a>模拟计算</h4>
+<p>Master/Worker, Compute Grid, MapReduce 等等。</p>
+<h4 id="批处理-任何领域"><a class="header-anchor" href="#批处理-任何领域">¶</a>批处理 (任何领域)</h4>
+<p>Camel integration 通过批量数据源 Actors 分治批量工作任务</p>
+<h4 id="通信-hub-电信-web-媒介-移动媒介"><a class="header-anchor" href="#通信-hub-电信-web-媒介-移动媒介">¶</a>通信 Hub (电信, Web 媒介, 移动媒介)</h4>
+<ul>
+<li><a href="https://youtu.be/G3ZafPNI-hk?t=6m16s" target="_blank" rel="external">EventDay: 用Akka.NET 实现可扩展的会议和事件管理</a></li>
+</ul>
+<h4 id="游戏和博彩"><a class="header-anchor" href="#游戏和博彩">¶</a>游戏和博彩</h4>
+<p>垂直扩展，水平扩展，容错性 / 高可用</p>
+<h4 id="商业智能-数据挖掘-通用计算"><a class="header-anchor" href="#商业智能-数据挖掘-通用计算">¶</a>商业智能/数据挖掘/通用计算</h4>
+<ul>
+<li><a href="https://twitter.com/philiplaureano/status/735976018993778688" target="_blank" rel="external">用Octopus发布系统和 Akka.NET 实现 Domain.au 的实时流处理 </a></li>
+</ul>
+<h4 id="物联网-iot"><a class="header-anchor" href="#物联网-iot">¶</a>物联网（IoT）</h4>
+<ul>
+<li><a href="https://youtu.be/YuY1ziEqifU?t=3m38s" target="_blank" rel="external">Synchromatics: 用 Akka.NET 实现实时公共交通跟踪与分析</a></li>
+</ul>
+<h4 id="复杂事件处理-cep"><a class="header-anchor" href="#复杂事件处理-cep">¶</a>复杂事件处理（CEP）</h4>
+<ul>
+<li><a href="http://www.aaronstannard.com/markedup-akkadotnet/" target="_blank" rel="external">MarkedUp 分析: 用分布式 Actor 系统和 Akka.NET 实现实时营销自动化</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Akka.NET 被很多行业的大型组织使用。如投资和商业银行，零售和社交媒体， 仿真，游戏和博彩，汽车和交通系统， 医疗保健， 数据分析等等。 任何有高吞吐量和低延迟需求的系统都可以选择使用 Akka.NET。&lt;/p&gt;
+&lt;p&gt;Akka.N
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】Azure 云服务部署场景</title>
+    <link href="http://codeyu.com/2016/08/27/Azure-PaaS-Deployment-Scenario/"/>
+    <id>http://codeyu.com/2016/08/27/Azure-PaaS-Deployment-Scenario/</id>
+    <published>2016-08-27T10:21:42.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>下面的示例假设您已经创建了一个新的包含一个空<code>Worker Role</code> 的Azure PaaS云服务。通过安装<a href="http://azure.microsoft.com/en-gb/downloads/" target="_blank" rel="external">Azure .Net SDK</a>将云服务模版添加到Visual Studio。</p>
+<p>在部署到云之前，可以在本地使用“Azure服务模拟器”对<code>Worker Role</code>的实现进行测试。 参考MSDN Azure 的文章 <a href="https://msdn.microsoft.com/en-us/library/azure/dn339018.aspx" target="_blank" rel="external">&quot;使用模拟器在本地调试和运行一个云服务&quot;</a> 了解更多细节。</p>
+<p>Azure PaaS <code>Worker Role</code>的实现和<a href="http://codeyu.com/2016/08/26/windows-service-deployment-scenario/">Windows Service 部署场景</a>的例子很相似。<br>
+开始使用 Akka.Net 的最快方式是创建一个简单的<code>Worker Role</code>，在它的 RunAsync() 方法里调用 top-level
+user-actor，如下所示:</p>
+<h4 id="workerrole-cs"><a class="header-anchor" href="#workerrole-cs">¶</a>WorkerRole.cs</h4>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">using</span> Akka.Actor;</div></pre></td></tr></table></figure>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">namespace</span> <span class="title">MyActorWorkerRole</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">WorkerRole</span> : <span class="title">RoleEntryPoint</span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">private</span> <span class="keyword">readonly</span> CancellationTokenSource cancellationTokenSource = <span class="keyword">new</span> CancellationTokenSource();</div><div class="line">        <span class="keyword">private</span> <span class="keyword">readonly</span> ManualResetEvent runCompleteEvent = <span class="keyword">new</span> ManualResetEvent(<span class="literal">false</span>);</div><div class="line"></div><div class="line">        <span class="keyword">private</span> ActorSystem _actorSystem;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">bool</span> <span class="title">OnStart</span>(<span class="params"></span>)</span></div><div class="line">        &#123;</div><div class="line">            <span class="comment">// Setup the Actor System</span></div><div class="line">            _actorSystem = ActorSystem.Create(<span class="string">"MySystem"</span>);</div><div class="line"></div><div class="line">            <span class="keyword">return</span> (<span class="keyword">base</span>.OnStart());</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">OnStop</span>(<span class="params"></span>)</span></div><div class="line">        &#123;</div><div class="line">            <span class="keyword">this</span>.cancellationTokenSource.Cancel();</div><div class="line">            <span class="keyword">this</span>.runCompleteEvent.WaitOne();</div><div class="line"></div><div class="line">            <span class="comment">// Shutdown the Actor System</span></div><div class="line">            _actorSystem.Shutdown();</div><div class="line"></div><div class="line">            <span class="keyword">base</span>.OnStop();</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">Run</span>(<span class="params"></span>)</span></div><div class="line">        &#123;</div><div class="line">            <span class="keyword">try</span></div><div class="line">            &#123;</div><div class="line">                <span class="keyword">this</span>.RunAsync(<span class="keyword">this</span>.cancellationTokenSource.Token).Wait();</div><div class="line">            &#125;</div><div class="line">            <span class="keyword">finally</span></div><div class="line">            &#123;</div><div class="line">                <span class="keyword">this</span>.runCompleteEvent.Set();</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="function"><span class="keyword">private</span> <span class="keyword">async</span> Task <span class="title">RunAsync</span>(<span class="params">CancellationToken cancellationToken</span>)</span></div><div class="line">        &#123;</div><div class="line">            <span class="comment">// Create an instance to the top-level user Actor</span></div><div class="line">            <span class="keyword">var</span> workerRoleActor = _actorSystem.ActorOf&lt;WorkerRoleActor&gt;(<span class="string">"WorkerRole"</span>);</div><div class="line"></div><div class="line">            <span class="comment">// Send a message to the Actor</span></div><div class="line">            workerRoleActor.Tell(<span class="keyword">new</span> WorkerRoleMessage(<span class="string">"Hello World!"</span>));</div><div class="line"></div><div class="line">            <span class="keyword">while</span> (!cancellationToken.IsCancellationRequested)</div><div class="line">            &#123;</div><div class="line">                <span class="keyword">await</span> Task.Delay(<span class="number">1000</span>);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;下面的示例假设您已经创建了一个新的包含一个空&lt;code&gt;Worker Role&lt;/code&gt; 的Azure PaaS云服务。通过安装&lt;a href=&quot;http://azure.microsoft.com/en-gb/downloads/&quot;
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】Windows Service 部署场景</title>
+    <link href="http://codeyu.com/2016/08/26/windows-service-deployment-scenario/"/>
+    <id>http://codeyu.com/2016/08/26/windows-service-deployment-scenario/</id>
+    <published>2016-08-26T23:25:36.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>对于Windows Service 的部署， 推荐使用
+<a href="http://topshelf.readthedocs.org/en/latest/index.html" target="_blank" rel="external">TopShelf</a> 创建 Windows Service。它从根本上简化了Windows Service 的托管。</p>
+<p>最快的方式入门TopShelf 是创建一个控制台程序，它长得像下面的样子:</p>
+<h4 id="program-cs"><a class="header-anchor" href="#program-cs">¶</a>Program.cs</h4>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">using</span> Akka.Actor;</div><div class="line"><span class="keyword">using</span> Topshelf;</div></pre></td></tr></table></figure>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> <span class="title">Program</span></div><div class="line">&#123;</div><div class="line">    <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span></div><div class="line">    &#123;</div><div class="line">        HostFactory.Run(x =&gt;</div><div class="line">        &#123;</div><div class="line">            x.Service&lt;MyActorService&gt;(s =&gt;</div><div class="line">            &#123;</div><div class="line">                s.ConstructUsing(n =&gt; <span class="keyword">new</span> MyActorService());</div><div class="line">                s.WhenStarted(service =&gt; service.Start());</div><div class="line">                s.WhenStopped(service =&gt; service.Stop());</div><div class="line">                <span class="comment">//继续和重新启动指令也是可用的</span></div><div class="line">            &#125;);</div><div class="line"></div><div class="line">            x.RunAsLocalSystem();</div><div class="line">            x.UseAssemblyInfoForServiceInfo();</div><div class="line">        &#125;);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></div><div class="line"><span class="comment"><span class="doctag">///</span> 这个类扮演你的应用程序和TopShelf之间的接头人</span></div><div class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></div><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">MyActorService</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">private</span> ActorSystem mySystem;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Start</span>(<span class="params"></span>)</span></div><div class="line">    &#123;</div><div class="line">        <span class="comment">//this is where you setup your actor system and other things</span></div><div class="line">        mySystem = ActorSystem.Create(<span class="string">"MySystem"</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">async</span> <span class="keyword">void</span> <span class="title">Stop</span>(<span class="params"></span>)</span></div><div class="line">    &#123;</div><div class="line">        <span class="comment">//this is where you stop your actor system</span></div><div class="line">        <span class="keyword">await</span> mySystem.Terminate();</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>如你所见，上面这个例子是最简单的使用TopShelf 的方式。 不过也有其他与TopShelf集成的方式，给你更多的控制。</p>
+<p>使用 Topshelf 安装非常简单，在命令行输入<code>myConsoleApp.exe install</code> 就行了。</p>
+<p>更多选项和设置请参阅<a href="http://topshelf.readthedocs.org/en/latest/index.html" target="_blank" rel="external">Topshelf 文档</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;对于Windows Service 的部署， 推荐使用
+&lt;a href=&quot;http://topshelf.readthedocs.org/en/latest/index.html&quot; target=&quot;_blank&quot; rel=&quot;externa
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】asp.net 部署场景</title>
+    <link href="http://codeyu.com/2016/08/21/asp-net-deployment-scenario/"/>
+    <id>http://codeyu.com/2016/08/21/asp-net-deployment-scenario/</id>
+    <published>2016-08-21T23:16:10.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h3 id="创建asp-net-资源"><a class="header-anchor" href="#创建asp-net-资源">¶</a>创建ASP.NET 资源</h3>
+<p>寄宿在ASP.NET应用中很容易。 首先，在 Global.asax 里设置下。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">public class MvcApplication : System.Web.HttpApplication</div><div class="line">&#123;</div><div class="line">    protected static ActorSystem ActorSystem;</div><div class="line">    //这里声明你的顶层 actor-refs</div><div class="line">    protected static IActorRef MyActor;</div><div class="line"></div><div class="line">    protected void Application_Start()</div><div class="line">    &#123;</div><div class="line">        //你的 mvc 配置。 在这之前或之后初始化你的Actor 系统都无所谓</div><div class="line">        ActorSystem = ActorSystem.Create("app");</div><div class="line">        //这里注册你的顶层 actors</div><div class="line">        MyActor = ActorSystem.ActorOf&lt;MyActor&gt;();</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>正如你所见，这里的要点是确保对<code>ActorSystem</code> 的静态引用。 这确保它不会意外的被垃圾回收，并且在Web 应用的开始和停止事件中得到创建和处理。</p>
+<blockquote>
+<p><strong>警告</strong><br>尽管寄宿在ASP.NET 应用里很容易。 <strong>忠告之语</strong>：当IIS 抽风时，你的App 所在的应用程序池（applicationpool）随之停止或启动。这意味着  <code>ActorSystem</code> 可能随时被中断。</p>
+</blockquote>
+<p>通常情况下，你在ASP.NET应用程序里面使用一个非常轻量级的<code>ActorSystem</code> ，并通过Akka.Remote/ Akka.Cluster把重型工作分流到一个单独的Windows 服务里。</p>
+<h3 id="controllers-和-akka-net-的交互"><a class="header-anchor" href="#controllers-和-akka-net-的交互">¶</a>Controllers 和 Akka.NET 的交互</h3>
+<p>下面的例子使用 Web API Controller:</p>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">SomeController</span>  : <span class="title">ApiController</span></div><div class="line">&#123;</div><div class="line">      <span class="comment">//使用异步Action</span></div><div class="line">      <span class="function"><span class="keyword">public</span> <span class="keyword">async</span> Task&lt;SomeResult&gt; <span class="title">Post</span>(<span class="params">SomeRequest someRequest</span>)</span></div><div class="line">      &#123;</div><div class="line">           <span class="comment">//根据传入的参数，使用之前创建的Actor 发送一个消息</span></div><div class="line">           <span class="comment">//并且使用`Ask` 异步方法等待发送消息的结果</span></div><div class="line">           <span class="keyword">var</span> result = <span class="keyword">await</span> MvcApplication.MyActor.Ask&lt;SomeResult&gt;(<span class="keyword">new</span> SomeMessage(someRequest.SomeArg1,someRequest.SomeArg2));</div><div class="line">           <span class="keyword">return</span> result;</div><div class="line">      &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h3 id=&quot;创建asp-net-资源&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#创建asp-net-资源&quot;&gt;¶&lt;/a&gt;创建ASP.NET 资源&lt;/h3&gt;
+&lt;p&gt;寄宿在ASP.NET应用中很容易。 首先，在 Globa
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】控制台程序部署场景</title>
+    <link href="http://codeyu.com/2016/08/21/Console-deployment-scenario/"/>
+    <id>http://codeyu.com/2016/08/21/Console-deployment-scenario/</id>
+    <published>2016-08-21T23:10:50.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="控制台程序"><a class="header-anchor" href="#控制台程序">¶</a>控制台程序</h2>
+<figure class="highlight pm"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">PM&gt; install-<span class="keyword">package</span> Akka</div><div class="line">PM&gt; install-<span class="keyword">package</span> Akka.Remote</div></pre></td></tr></table></figure>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">using</span> Akka;</div><div class="line"><span class="keyword">using</span> Akka.Actor;</div><div class="line"><span class="keyword">using</span> Akka.Configuration;</div><div class="line"></div><div class="line"><span class="keyword">namespace</span> <span class="title">Foo.Bar</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">class</span> <span class="title">Program</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span></div><div class="line">        &#123;</div><div class="line">            <span class="comment">//配置远程路径为 localhost:8081</span></div><div class="line">            <span class="keyword">var</span> fluentConfig = FluentConfig.Begin()</div><div class="line">                .StartRemotingOn(<span class="string">"localhost"</span>, <span class="number">8081</span>)</div><div class="line">                .Build();</div><div class="line"></div><div class="line">            <span class="keyword">using</span> (<span class="keyword">var</span> system = ActorSystem.Create(<span class="string">"my-actor-server"</span>, fluentConfig))</div><div class="line">            &#123;</div><div class="line">                <span class="comment">//实例化两个服务</span></div><div class="line">                <span class="keyword">var</span> service1= system.ActorOf&lt;Service1&gt;(<span class="string">"service1"</span>);</div><div class="line">                <span class="keyword">var</span> service2 = system.ActorOf&lt;Service2&gt;(<span class="string">"service2"</span>);</div><div class="line">                Console.ReadKey();</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;控制台程序&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#控制台程序&quot;&gt;¶&lt;/a&gt;控制台程序&lt;/h2&gt;
+&lt;figure class=&quot;highlight pm&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;g
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】约定成俗的Hello World</title>
+    <link href="http://codeyu.com/2016/08/20/The-Obligatory-Hello-World/"/>
+    <id>http://codeyu.com/2016/08/20/The-Obligatory-Hello-World/</id>
+    <published>2016-08-20T10:44:56.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<p>下面的例子演示怎么在C# 和F# 语言中定义和使用actors</p>
+<h2 id="c-语言的hello-world"><a class="header-anchor" href="#c-语言的hello-world">¶</a>C# 语言的Hello World</h2>
+<h4 id="定义一个消息："><a class="header-anchor" href="#定义一个消息：">¶</a>定义一个消息：</h4>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Create an (immutable) message type that your actor will respond to</span></div><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Greet</span></div><div class="line">&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Greet</span>(<span class="params"><span class="keyword">string</span> who</span>)</span></div><div class="line">    &#123;</div><div class="line">        Who = who;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">string</span> Who &#123; <span class="keyword">get</span>;<span class="keyword">private</span> <span class="keyword">set</span>; &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="通过使用-receiveactor-api-定义你的actor"><a class="header-anchor" href="#通过使用-receiveactor-api-定义你的actor">¶</a>通过使用 <code>ReceiveActor</code> API 定义你的actor</h4>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Create the actor class</span></div><div class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">GreetingActor</span> : <span class="title">ReceiveActor</span></div><div class="line">&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="title">GreetingActor</span>(<span class="params"></span>)</span></div><div class="line">    &#123;</div><div class="line">        Receive&lt;Greet&gt;(greet =&gt; Console.WriteLine(<span class="string">"Hello &#123;0&#125;"</span>, greet.Who));</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="或者使用-typedactor-api"><a class="header-anchor" href="#或者使用-typedactor-api">¶</a>..或者使用 <code>TypedActor</code> API</h4>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">public class GreetingActor : TypedActor , IHandle&lt;Greet&gt;</div><div class="line">&#123;</div><div class="line">    public void Handle(Greet greet)</div><div class="line">    &#123;</div><div class="line">        Console.WriteLine("Hello &#123;0&#125;!", greet.Who);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h4 id="用法"><a class="header-anchor" href="#用法">¶</a>用法:</h4>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Create a new actor system (a container for your actors)</span></div><div class="line"><span class="keyword">var</span> system = ActorSystem.Create(<span class="string">"MySystem"</span>);</div><div class="line"></div><div class="line"><span class="comment">// Create your actor and get a reference to it.</span></div><div class="line"><span class="comment">// This will be an "IActorRef", which is not a reference to the actual actor</span></div><div class="line"><span class="comment">// instance but rather a client or proxy to it.</span></div><div class="line"><span class="keyword">var</span> greeter = system.ActorOf&lt;GreetingActor&gt;(<span class="string">"greeter"</span>);</div><div class="line"></div><div class="line"><span class="comment">// Send a message to the actor.</span></div><div class="line">greeter.Tell(<span class="keyword">new</span> Greet(<span class="string">"World"</span>));</div><div class="line"></div><div class="line"><span class="comment">// This prevents the app from exiting</span></div><div class="line"><span class="comment">// before the async work is done.</span></div><div class="line">Console.ReadLine();</div></pre></td></tr></table></figure>
+<p>参考:</p>
+<ul>
+<li><a href="http://api.getakka.net/docs/stable/html/6300028C.htm" target="_blank" rel="external">Untyped actors</a></li>
+<li><a href="http://api.getakka.net/docs/stable/html/DCCA8182.htm" target="_blank" rel="external">Typed actors</a></li>
+</ul>
+<h2 id="f-语言的hello-world"><a class="header-anchor" href="#f-语言的hello-world">¶</a>F# 语言的Hello World</h2>
+<figure class="highlight fsharp"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Create an (immutable) message type that your actor will respond to</span></div><div class="line"><span class="class"><span class="keyword">type</span> <span class="title">Greet</span> </span>= Greet <span class="keyword">of</span> string</div><div class="line"></div><div class="line"><span class="keyword">let</span> system = ActorSystem.Create <span class="string">"MySystem"</span></div><div class="line"></div><div class="line"><span class="comment">// Use F# computation expression with tail-recursive loop</span></div><div class="line"><span class="comment">// to create an actor message handler and return a reference</span></div><div class="line"><span class="keyword">let</span> greeter = spawn system <span class="string">"greeter"</span> &lt;| <span class="keyword">fun</span> mailbox -&gt;</div><div class="line">    <span class="keyword">let</span> <span class="keyword">rec</span> loop() = actor &#123;</div><div class="line">        <span class="keyword">let!</span> msg = mailbox.Receive()</div><div class="line">        <span class="keyword">match</span> msg <span class="keyword">with</span></div><div class="line">        | Greet who -&gt; printf <span class="string">"Hello, %s!\n"</span> who</div><div class="line">        <span class="keyword">return!</span> loop() &#125;</div><div class="line">    loop()</div><div class="line"></div><div class="line">greeter &lt;! Greet <span class="string">"World"</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下面的例子演示怎么在C# 和F# 语言中定义和使用actors&lt;/p&gt;
+&lt;h2 id=&quot;c-语言的hello-world&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#c-语言的hello-world&quot;&gt;¶&lt;/a&gt;C# 语言的Hello World&lt;/h
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】入门</title>
+    <link href="http://codeyu.com/2016/08/20/Getting-started-with-Akka-NET/"/>
+    <id>http://codeyu.com/2016/08/20/Getting-started-with-Akka-NET/</id>
+    <published>2016-08-20T08:02:42.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="开始使用akka-net"><a class="header-anchor" href="#开始使用akka-net">¶</a>开始使用Akka.NET</h2>
+<p>本教程旨在介绍如何使用Akka.NET 创建一个简单的问候Actor ，使用C# 语言。</p>
+<h2 id="项目设置"><a class="header-anchor" href="#项目设置">¶</a>项目设置</h2>
+<p>启动visual studio 并新建一个 C# 控制台程序.
+建好后，打开包管理器控制台（Package Manager Console），键入:</p>
+<figure class="highlight pm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">PM&gt; Install-Package Akka</div></pre></td></tr></table></figure>
+<p>然后我们需要添加相关语句:</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">using</span> System;</div><div class="line"><span class="keyword">using</span> System.Collections.Generic;</div><div class="line"><span class="keyword">using</span> System.Linq;</div><div class="line"><span class="keyword">using</span> System.Text;</div><div class="line"><span class="keyword">using</span> System.Threading.Tasks;</div><div class="line"></div><div class="line"><span class="comment">//增加两行</span></div><div class="line"><span class="keyword">using</span> Akka;</div><div class="line"><span class="keyword">using</span> Akka.Actor;</div><div class="line"></div><div class="line"><span class="keyword">namespace</span> <span class="title">ConsoleApplication11</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">class</span> <span class="title">Program</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span></div><div class="line">        &#123;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="创建第一个actor"><a class="header-anchor" href="#创建第一个actor">¶</a>创建第一个actor</h2>
+<p>首先，我们要创建消息类型（Greet 类）以使Actor 去响应：</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">using</span> System;</div><div class="line"><span class="keyword">using</span> System.Collections.Generic;</div><div class="line"><span class="keyword">using</span> System.Linq;</div><div class="line"><span class="keyword">using</span> System.Text;</div><div class="line"><span class="keyword">using</span> System.Threading.Tasks;</div><div class="line"></div><div class="line"><span class="keyword">using</span> Akka;</div><div class="line"><span class="keyword">using</span> Akka.Actor;</div><div class="line"></div><div class="line"><span class="keyword">namespace</span> <span class="title">ConsoleApplication11</span></div><div class="line">&#123;</div><div class="line">    <span class="comment">// 创建一个（不可变的）消息类型，您的Actor 将响应</span></div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Greet</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Greet</span>(<span class="params"><span class="keyword">string</span> who</span>)</span></div><div class="line">        &#123;</div><div class="line">            Who = who;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">public</span> <span class="keyword">string</span> Who &#123; <span class="keyword">get</span>;<span class="keyword">private</span> <span class="keyword">set</span>; &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">class</span> <span class="title">Program</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span></div><div class="line">        &#123;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>建好后，开始建actor：</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">using</span> System;</div><div class="line"><span class="keyword">using</span> System.Collections.Generic;</div><div class="line"><span class="keyword">using</span> System.Linq;</div><div class="line"><span class="keyword">using</span> System.Text;</div><div class="line"><span class="keyword">using</span> System.Threading.Tasks;</div><div class="line"></div><div class="line"><span class="keyword">using</span> Akka;</div><div class="line"><span class="keyword">using</span> Akka.Actor;</div><div class="line"></div><div class="line"><span class="keyword">namespace</span> <span class="title">ConsoleApplication11</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Greet</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Greet</span>(<span class="params"><span class="keyword">string</span> who</span>)</span></div><div class="line">        &#123;</div><div class="line">            Who = who;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">public</span> <span class="keyword">string</span> Who &#123; <span class="keyword">get</span>;<span class="keyword">private</span> <span class="keyword">set</span>; &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">// 创建 actor 类</span></div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">GreetingActor</span> : <span class="title">ReceiveActor</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="title">GreetingActor</span>(<span class="params"></span>)</span></div><div class="line">        &#123;</div><div class="line">            <span class="comment">// 告诉Actor 回应问候消息</span></div><div class="line">            Receive&lt;Greet&gt;(greet =&gt;</div><div class="line">               Console.WriteLine(<span class="string">"Hello &#123;0&#125;"</span>, greet.Who));</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">class</span> <span class="title">Program</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span></div><div class="line">        &#123;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>现在，是时候消费Actor了， 我们通过创建 <code>ActorSystem</code> 实例和使用 <code>ActorOf</code> 方法来实现：</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">using</span> System;</div><div class="line"><span class="keyword">using</span> System.Collections.Generic;</div><div class="line"><span class="keyword">using</span> System.Linq;</div><div class="line"><span class="keyword">using</span> System.Text;</div><div class="line"><span class="keyword">using</span> System.Threading.Tasks;</div><div class="line"></div><div class="line"><span class="keyword">using</span> Akka;</div><div class="line"><span class="keyword">using</span> Akka.Actor;</div><div class="line"></div><div class="line"><span class="keyword">namespace</span> <span class="title">ConsoleApplication11</span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Greet</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="title">Greet</span>(<span class="params"><span class="keyword">string</span> who</span>)</span></div><div class="line">        &#123;</div><div class="line">            Who = who;</div><div class="line">        &#125;</div><div class="line">        <span class="keyword">public</span> <span class="keyword">string</span> Who &#123; <span class="keyword">get</span>;<span class="keyword">private</span> <span class="keyword">set</span>; &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">public</span> <span class="keyword">class</span> <span class="title">GreetingActor</span> : <span class="title">ReceiveActor</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="title">GreetingActor</span>(<span class="params"></span>)</span></div><div class="line">        &#123;</div><div class="line">            Receive&lt;Greet&gt;(greet =&gt;</div><div class="line">               Console.WriteLine(<span class="string">"Hello &#123;0&#125;"</span>, greet.Who));</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">class</span> <span class="title">Program</span></div><div class="line">    &#123;</div><div class="line">        <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="keyword">string</span>[] args</span>)</span></div><div class="line">        &#123;</div><div class="line">            <span class="comment">// 实例化一个 actor 系统 (actors 的容器)</span></div><div class="line">            <span class="keyword">var</span> system = ActorSystem.Create(<span class="string">"MySystem"</span>);</div><div class="line"></div><div class="line">            <span class="comment">// 创建你的actor 并得到对它的引用。</span></div><div class="line">            <span class="comment">// 这将返回 "ActorRef" 类型, 不是指</span></div><div class="line">            <span class="comment">// 实际的Actor 实例而是Actor 的客户端或代理。</span></div><div class="line">            <span class="keyword">var</span> greeter = system.ActorOf&lt;GreetingActor&gt;(<span class="string">"greeter"</span>);</div><div class="line"></div><div class="line">            <span class="comment">// 发送消息到 actor</span></div><div class="line">            greeter.Tell(<span class="keyword">new</span> Greet(<span class="string">"World"</span>));</div><div class="line"></div><div class="line">            <span class="comment">// 防止程序在异步工作完成前退出</span></div><div class="line">            Console.ReadLine();</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>就是这样，你的Actor 现在已经准备好接收从任意调用线程发送的消息了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;开始使用akka-net&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#开始使用akka-net&quot;&gt;¶&lt;/a&gt;开始使用Akka.NET&lt;/h2&gt;
+&lt;p&gt;本教程旨在介绍如何使用Akka.NET 创建一个简单的问
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】为什么使用Akka.NET</title>
+    <link href="http://codeyu.com/2016/08/20/why-akka/"/>
+    <id>http://codeyu.com/2016/08/20/why-akka/</id>
+    <published>2016-08-20T07:54:46.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="akka-net-平台为什么比竞品强大"><a class="header-anchor" href="#akka-net-平台为什么比竞品强大">¶</a>Akka.NET 平台为什么比竞品强大</h2>
+<p>Akka.NET 提供了可扩展，实时的业务处理。</p>
+<p>Akka.NET 作为一个统一的运行时和编程模型主要体现在：</p>
+<ul>
+<li>垂直扩展（并发性）</li>
+<li>水平扩展（分布式处理）</li>
+<li>容错性</li>
+</ul>
+<p>有件事要学习和管理，具有高内聚和一致性。</p>
+<p>Akka.NET 是伸缩性很强的框架，不仅是性能方面，对应用的大小也很有帮助：Akka.NET 的核心，Akka.NET-Actor 很小，你可以毫不费力的整合进你需要异步和无锁并发处理的项目里。</p>
+<p>在你的应用程序中，你可以只选择Akka.NET 中你需要的部分。然后就是整个包，Akka.NET 微内核 - 一个独立的容器部署你的程序。随着每次CPU 核数的增加，即使你的程序只是部署在一台机器上，提供卓越性能的Akka.NET 都是优秀之选。Akka.NET 还提供一系列的并发模式，允许用户作出正确的选择。</p>
+<h2 id="akka-net-有哪些好的用户案例"><a class="header-anchor" href="#akka-net-有哪些好的用户案例">¶</a>Akka.NET 有哪些好的用户案例</h2>
+<p>我们看到Akka.NET 在各行各业的大机构都有采用：</p>
+<ul>
+<li>投资和商业银行</li>
+<li>零售</li>
+<li>社交媒体</li>
+<li>仿真</li>
+<li>游戏和博彩</li>
+<li>数据分析等等。任何高吞吐量和低延迟的系统都是使用Akka.NET 的不二之选。</li>
+</ul>
+<p>Actors 让你管理服务失败（监督者），负载管理 （回退策略、 超时和处理隔离），以及水平和垂直扩展（添加更多的内核和/或添加更多的机器）。</p>
+<p>下面是一些用户讲述他们如何使用Akka.NET︰<br>
+<a href="http://stackoverflow.com/questions/4493001/good-use-case-for-akka" target="_blank" rel="external">http://stackoverflow.com/questions/4493001/good-use-case-for-akka</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;akka-net-平台为什么比竞品强大&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#akka-net-平台为什么比竞品强大&quot;&gt;¶&lt;/a&gt;Akka.NET 平台为什么比竞品强大&lt;/h2&gt;
+&lt;p&gt;Akka.NE
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Akka.NET 文档】什么是Akka.NET</title>
+    <link href="http://codeyu.com/2016/08/17/What-is-Akka/"/>
+    <id>http://codeyu.com/2016/08/17/What-is-Akka/</id>
+    <published>2016-08-17T22:53:13.000Z</published>
+    <updated>2017-02-13T16:10:14.453Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="可扩展-分布式-实时业务处理"><a class="header-anchor" href="#可扩展-分布式-实时业务处理">¶</a>可扩展，分布式 实时业务处理</h2>
+<p>我们认为写正确的，并发的，容错的和可扩展的应用程序太难了。</p>
+<p>很多时候，是因为我们用了错误的工具和错误的抽象层次。Akka.NET就是为了改变这种情况。</p>
+<p>通过使用 Actor 模型，我们提升了抽象层次并且提供一个更好的平台去实现可扩展，富有弹性和可响应的应用系统-点击 <a href="http://www.reactivemanifesto.org/zh-CN" target="_blank" rel="external">响应式宣言</a> 了解更多。</p>
+<p>对于容错性，我们采用“let it crash”（让它崩溃）的模式，电信领域采用这种模式取得了巨大成功，因为实现了可以自我修复异常并且永不停止的应用系统。Actors 也提供分布式透明<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>的抽象和真正可扩展，容错应用程序的基础。</p>
+<p>Akka.NET是开源程序，在 <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="external">Apache-2.0</a> 许可证下发行--<a href="https://www.tldrlegal.com/l/apache2" target="_blank" rel="external">点我了解这种许可证</a>。</p>
+<p>源码地址：<a href="https://github.com/akkadotnet/akka.net" target="_blank" rel="external">https://github.com/akkadotnet/akka.net</a>.</p>
+<h2 id="一种独特的混合"><a class="header-anchor" href="#一种独特的混合">¶</a>一种独特的混合</h2>
+<h3 id="actors"><a class="header-anchor" href="#actors">¶</a>Actors</h3>
+<p>Actors 给你:</p>
+<ul>
+<li>简单，高层次抽象的并发和并行。</li>
+<li>异步，无阻塞和具有高性能的事件驱动模型。</li>
+<li>非常轻量级的事件驱动过程（每GB的对内存有数百万的actors）。见C# 或 F# 章节。</li>
+</ul>
+<h3 id="容错性"><a class="header-anchor" href="#容错性">¶</a>容错性</h3>
+<ul>
+<li>监管者层次具有“让他崩溃”语义。</li>
+<li>监管者层级可以跨越多个虚拟机，以提供真正的容错系统。</li>
+<li>卓越的高可写容错系统：自我修复，永不停止。见<a href="http://getakka.net/docs/Fault%20tolerance" target="_blank" rel="external">容错</a>。</li>
+</ul>
+<h3 id="位置透明"><a class="header-anchor" href="#位置透明">¶</a>位置透明<sup class="footnote-ref"><a href="#fn1" id="fnref1:1">[1]</a></sup></h3>
+<p>Akka中的一切都是为分布式环境中工作设计的：所有actors的交互都是通过消息传递的，一切都是异步的。</p>
+<p>支持集群。<a href="https://github.com/akkadotnet/akka.net/pull/400" target="_blank" rel="external">点我了解更多</a></p>
+<h3 id="持久化"><a class="header-anchor" href="#持久化">¶</a>持久化</h3>
+<p>Akka.Persistence 当前是beta版。<a href="https://github.com/akkadotnet/akka.net/tree/dev/src/core/Akka.Persistence" target="_blank" rel="external">点我查看开发进度</a></p>
+<h3 id="商业支持"><a class="header-anchor" href="#商业支持">¶</a>商业支持</h3>
+<p>Akka.NET 由 <a href="http://petabridge.com/" target="_blank" rel="external">Petabridge</a> 公司提供支持。</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>作者注：所谓分布式透明或位置透明我认为就是程序是分布式部署但给人的感觉就是在同一个环境中 <a href="#fnref1" class="footnote-backref">↩</a> <a href="#fnref1:1" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;可扩展-分布式-实时业务处理&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#可扩展-分布式-实时业务处理&quot;&gt;¶&lt;/a&gt;可扩展，分布式 实时业务处理&lt;/h2&gt;
+&lt;p&gt;我们认为写正确的，并发的，容错的和可扩展的应
+    
+    </summary>
+    
+      <category term="翻译" scheme="http://codeyu.com/categories/%E7%BF%BB%E8%AF%91/"/>
+    
+    
+      <category term="Akka.NET" scheme="http://codeyu.com/tags/Akka-NET/"/>
+    
+  </entry>
+  
+</feed>
