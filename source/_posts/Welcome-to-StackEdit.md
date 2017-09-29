@@ -1,5 +1,11 @@
-# Welcome to StackEdit!
-
+---
+title: Welcome to StackEdit!
+date: 2017-09-29 10:56:15
+categories: 其他
+tags: 学习
+copyright: false
+---
+<!--more-->
 Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm here to help! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
 
 
